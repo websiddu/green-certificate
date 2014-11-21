@@ -1,4 +1,5 @@
 (function() {
-  console.log("'Allo from CoffeeScript!");
+  'use strict';
+  this.greenApp = angular.module('greenApp', ['ngRoute']);
 
 }).call(this);
