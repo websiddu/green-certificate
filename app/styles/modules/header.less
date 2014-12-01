@@ -32,3 +32,34 @@
   line-height: 12.6px;
   overflow: hidden;
 }
+
+
+.tiny-nav {
+  height: 30px;
+  background: @darkgray-dark;
+  line-height: 30px;
+  color: #fff;
+    a {
+      color: #fff;
+      &:hover {
+        text-decoration: none;
+        color: #ccc;
+      }
+    }
+
+  ul {
+    margin: 0;
+  }
+  li {
+    line-height: 30px;
+    padding: 0px 10px;
+
+    &.selected {
+      background: #fff;
+      a {
+        color: #333;
+      }
+    }
+  }
+}
+
